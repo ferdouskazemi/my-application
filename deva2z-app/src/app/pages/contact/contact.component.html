@@ -1,0 +1,93 @@
+<a routerLink="/">
+    <div class="side-nav bg-image-holder">
+        <fa-icon [icon]="faTimes" class="close-icon"></fa-icon>
+        <h2 class="head-title">Contact Us</h2>
+    </div>
+
+</a>
+<div class="content-container">
+    <div class="title-page">
+        <h2>Get in <span class="title-special">Touch !</span> </h2>
+        <img src="./../../../assets/images/dvider.png" alt="">
+    </div>
+
+    <div class="contact-icon-items">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="contact-box">
+                    <div class="icon">
+                        <fa-icon [icon]="faMap"></fa-icon>
+                    </div>
+                    <div class="text-box">
+                        <p>Visit Us:</p>
+                        <p>420 Nord Ave, Chico CA 95926</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="contact-box">
+                    <div class="icon">
+                        <fa-icon [icon]="faPhone"></fa-icon>
+                    </div>
+                    <div class="text-box">
+                        <p>Call Us:</p>
+                        <p><a class="tel" href="tel:+1(530)680-9982">+1(530)680-9982</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="contact-box">
+                    <div class="icon">
+                        <fa-icon [icon]="faEnvelope"></fa-icon>
+                    </div>
+                    <div class="text-box">
+                        <p class="">Mail Us:</p>
+                        <p><a class="mail" href="mailto:info@deva2z.com">info@deva2z.com</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form-container">
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                
+                <div class="mb-3">
+                    <label for="nameInput" class="form-label">Name</label>
+                    <input type="text" class="form-control" required id="nameInput" aria-describedby="nameInput">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="subjectInput" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subjectInput">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Write Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+            </div>
+            </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    </div>
+
+    <ngx-scrolltop>
+        ↑
+    </ngx-scrolltop>
+</div>
+
+<footer class="footer">
+    <p>@2021 DevA2Z. All rights reserved. Design by DevA2Z</p>
+</footer>
